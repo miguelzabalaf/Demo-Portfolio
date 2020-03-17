@@ -201,7 +201,6 @@
     color: black;
 }
 
-
 .heroTechnologies::-webkit-scrollbar {
     -webkit-appearance: none;
 }
@@ -215,11 +214,11 @@
 } 
 
 .heroTechnologies::-webkit-scrollbar:horizontal {
-    height: 5px;
+    height: 7px;
 }
 
 .heroTechnologies::-webkit-scrollbar-thumb {
-    background-color: var(--backgroundColor);
+    background-color: var(--grayColor2);
     border-radius: 20px;
     border: 2px solid var(--grayColor);
 }

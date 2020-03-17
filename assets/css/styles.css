@@ -17,10 +17,12 @@
     --primaryColor: rgb(255,216,0);
     --primaryColorTransparent: rgba(255, 216, 0, 0.3);
     --secondaryColor: #333;
+    --secondaryColorTransparent: rgba(51, 51, 51, 0.7);
     --backgroundColor: rgb(250,250,250);
     --grayColor: rgb(240,240,240);
     --grayColor2: rgb(150,150,150);
     --whiteColor: rgb(255, 255, 255);
+    --whiteColorTransparent: rgba(255, 255, 255, 0.7);
     --blueColor: rgba(66, 134, 244, 0.8);
     --redColor: rgba(234, 68, 53, 0.8);
     --greenColor: rgba(52, 168, 83, 0.8);
