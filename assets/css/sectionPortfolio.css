@@ -1,0 +1,19 @@
+.sectionPortfolio {
+    background-color: var(--whiteColor);
+    padding: 1em;
+    border: 1px solid var(--grayColor);
+    border-radius: 10px;
+}
+
+.sectionPortfolioHeader span {
+    color: var(--grayColor2);
+    font-weight: 700;
+}
+
+.sectionPortfolioContent {
+    margin: 10px 0;
+}
+
+.portfolioItem {
+    
+}

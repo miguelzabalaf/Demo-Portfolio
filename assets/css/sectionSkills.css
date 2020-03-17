@@ -1,0 +1,117 @@
+.sectionSkills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.sectionSkills > * {
+    width: 270px;
+    height: auto;
+    padding: 1em;
+    border-radius: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s;
+}
+
+.sectionSkillsWeb {
+    background-color: var(--blueColor);
+}
+
+.sectionSkillsLenguage {
+    background-color: var(--redColor);
+}
+
+.sectionSkillsDesign {
+    background-color: var(--greenColor);
+}
+
+.sectionSkillsTitle1 {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    padding: 0.5em;
+    display: block;
+    border-radius: 5px;
+    filter: brightness(0.9);
+    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.2);
+
+}
+
+.sectionSkillsTitle2 {
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+    padding: 0.5em;
+    display: block;
+    border-radius: 5px;
+    filter: brightness(0.9);
+    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.2);
+}
+
+.sectionSkillsTitle3 {
+    background-color: var(--greenColor);
+    color: var(--whiteColor);
+    padding: 0.5em;
+    display: block;
+    border-radius: 5px;
+    filter: brightness(0.9);
+    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.2);
+}
+
+
+.sectionSkillsWebItems {
+    margin-top: 1em;
+    
+}
+.sectionSkillsWebItems span {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    padding: 3px 9px;
+    line-height: 30px;
+    border-radius: 5px;
+    filter: brightness(0.9);
+}
+
+.sectionSkillsLenguageItems {
+    margin-top: 1em;
+}
+.sectionSkillsLenguageItems span{
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+    padding: 3px 9px;
+    line-height: 30px;
+    border-radius: 5px;
+    filter: brightness(0.9);
+}
+
+.sectionSkillsDesignItems {
+    margin-top: 1em;
+}
+.sectionSkillsDesignItems span {
+    background-color: var(--greenColor);
+    color: var(--whiteColor);
+    padding: 3px 9px;
+    line-height: 30px;
+    border-radius: 5px;
+    filter: brightness(0.9);
+}
+
+@media screen and (max-width: 910px) {
+    .sectionSkills {
+        display: block;
+    }
+    .sectionSkillsWeb  {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .sectionSkillsLenguage {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    } 
+    .sectionSkillsDesign {        
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}

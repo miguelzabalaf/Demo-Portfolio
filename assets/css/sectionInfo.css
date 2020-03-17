@@ -1,0 +1,113 @@
+.sectionInfo {
+    border: 1px solid var(--grayColor);
+    border-radius: 10px;
+    background-color: var(--whiteColor);
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+.sectionInfoHeader {
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--grayColor2);
+}
+
+.sectionInfoHeaderRight {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionInfoHeaderLeft {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionInfoHeaderRight i {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionInfoHeaderRight:hover {
+    background-color: var(--grayColor);
+}
+
+.fa-chevron-down {
+    display: none;
+}
+
+.sectionInfoContent {
+    padding: 1em;
+    display: flex;
+    border-top: 1px solid var(--grayColor);
+}
+
+.sectionInfoContentImg {
+    width: 50px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.sectionInfoContentImg img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sectionInfoContentNetworks {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionInfoContentNetworks a {
+    font-size: 35px;
+    color: var(--grayColor2);
+    /* margin: 0 0.5em; */
+    text-decoration: none;
+}
+
+.sectionInfoContentNetworks a:nth-child(2):hover {
+    color: rgb(36,41,46);
+}
+
+.sectionInfoContentNetworks a:nth-child(3):hover {
+    color: rgb(0,119,181);
+}
+
+.sectionInfoContentNetworks a:nth-child(4):hover {
+    color: rgb(35,31,32);
+}
+
+.sectionInfoContentNetworks a:nth-child(5):hover {
+    color: rgb(0,172,238);
+}
+
+@media screen and (max-width: 500px) {
+    .sectionInfo {
+
+        margin-top: 75px;
+    }
+    .sectionInfoContentNetworks a {
+        font-size: 25px;
+    }
+    .sectionInfoContentImg {
+        display: none;
+    }
+}

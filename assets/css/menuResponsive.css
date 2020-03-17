@@ -1,0 +1,68 @@
+#menu {
+    display: none;
+}
+
+.menuResponsive {
+    background-color: var(--secondaryColor);
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    position: absolute;
+    z-index: 500;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.menuResponsiveItem {
+    width: 27px;
+    height: 5px;
+    background-color: var(--primaryColor);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* #menu:checked ~ .menuResponsive--nav {
+    display: inline-block;
+} */
+
+.menuResponsive--nav {
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 100;
+    bottom: 100px;
+    right: 25px;
+    display: none;
+}
+
+.menuResponsive--nav a {
+    display: block;
+    color: var(--primaryColor);
+    text-decoration: none;
+    margin: 5px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;    
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.menuResponsive--nav a:focus ~ .menuResponsive--nav {
+    display: none;
+}
+
+.menuResponsive--nav a:hover {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);    
+}
+
+@media screen and (max-width: 768px) {
+    .menuResponsive {
+        display: inline;
+    }
+}
