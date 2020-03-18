@@ -43,16 +43,20 @@
 
 
 .portfolioItemTitle {
-    background-color: var(--whiteColorTransparent);
-    color: var(--secondaryColor);
+    background-color: var(--secondaryColorTransparent);
+    color: var(--whiteColor);
     font-weight: 700;
     padding: 0.2em 0.5em;
     margin: 0.5em;
     border-radius: 5px;
-    /* box-shadow: var(--shadow); */
     position: absolute;
     z-index: 3;
-    /* bottom: 0; */
+    transition: all 0.3s;
+}
+
+.portfolioItem:hover .portfolioItemTitle {
+    background-color: var(--whiteColorTransparent);
+    color: var(--secondaryColor);
 }
 
 .portfolioItemLinks {
