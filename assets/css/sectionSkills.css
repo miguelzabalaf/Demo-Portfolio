@@ -15,46 +15,48 @@
 }
 
 .sectionSkillsWeb {
-    background-color: var(--blueColor);
+    border: 1px solid var(--grayColor);
+    background-color: var(--whiteColor);
 }
 
 .sectionSkillsLenguage {
-    background-color: var(--redColor);
+    border: 1px solid var(--grayColor);
+    background-color: var(--whiteColor);
 }
 
 .sectionSkillsDesign {
-    background-color: var(--greenColor);
+    border: 1px solid var(--grayColor);
+    background-color: var(--whiteColor);
 }
 
 .sectionSkillsTitle1 {
-    background-color: var(--blueColor);
-    color: var(--whiteColor);
+    background-color: var(--backgroundColor);
+    border: 1px solid var(--grayColor);
+    color: var(--blueColor);
+    font-weight: 600;
     padding: 0.5em;
     display: block;
     border-radius: 5px;
-    filter: brightness(0.9);
-    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.2);
-
 }
 
 .sectionSkillsTitle2 {
-    background-color: var(--redColor);
-    color: var(--whiteColor);
+    background-color: var(--backgroundColor);
+    border: 1px solid var(--grayColor);
+    color: var(--redColor);
+    font-weight: 600;
     padding: 0.5em;
     display: block;
     border-radius: 5px;
-    filter: brightness(0.9);
-    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.2);
 }
 
 .sectionSkillsTitle3 {
-    background-color: var(--greenColor);
-    color: var(--whiteColor);
+    background-color: var(--backgroundColor);
+    border: 1px solid var(--grayColor);
+    color: var(--greenColor);
+    font-weight: 600;
     padding: 0.5em;
     display: block;
     border-radius: 5px;
-    filter: brightness(0.9);
-    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.2);
 }
 
 
@@ -63,36 +65,36 @@
     
 }
 .sectionSkillsWebItems span {
-    background-color: var(--blueColor);
-    color: var(--whiteColor);
+    background-color: var(--backgroundColor);
+    color: var(--grayColor2);
+    font-weight: 500;
     padding: 3px 9px;
     line-height: 30px;
     border-radius: 5px;
-    filter: brightness(0.9);
 }
 
 .sectionSkillsLenguageItems {
     margin-top: 1em;
 }
 .sectionSkillsLenguageItems span{
-    background-color: var(--redColor);
-    color: var(--whiteColor);
+    background-color: var(--backgroundColor);
+    color: var(--grayColor2);
+    font-weight: 500;
     padding: 3px 9px;
     line-height: 30px;
     border-radius: 5px;
-    filter: brightness(0.9);
 }
 
 .sectionSkillsDesignItems {
     margin-top: 1em;
 }
 .sectionSkillsDesignItems span {
-    background-color: var(--greenColor);
-    color: var(--whiteColor);
+    background-color: var(--backgroundColor);
+    color: var(--grayColor2);
+    font-weight: 500;
     padding: 3px 9px;
     line-height: 30px;
     border-radius: 5px;
-    filter: brightness(0.9);
 }
 
 @media screen and (max-width: 910px) {
