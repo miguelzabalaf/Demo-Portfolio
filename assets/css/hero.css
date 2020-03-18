@@ -346,7 +346,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 499px) {
     .heroTitle {
         display: none;
     }
