@@ -84,6 +84,17 @@
     border-radius: 5px;
 }
 
+.portfolioLink-disable {
+    margin: 5px;
+    background-color: var(--whiteColorTransparent);
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    color: var(--grayColor2);
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .portfolioItemDescription {
     position: absolute;
     z-index: 2;
@@ -162,6 +173,13 @@
     .portfolioLink {
         background-color: var(--secondaryColorTransparent);
         color: var(--whiteColor);
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .portfolioLink-disable {
+        margin: 5px;
+        background-color: var(--whiteColorTransparent);
+        color: var(--grayColor2);
         font-weight: 500;
         font-size: 14px;
     }
