@@ -1,3 +1,4 @@
+@import "/assets/css/footer.css";
 @import "/assets/css/plataforms.css";
 @import "/assets/css/sectionPortfolio.css";
 @import "/assets/css/tooltips.css";
@@ -36,6 +37,9 @@ body {
 }
 
 .main {
+}
+
+.container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
