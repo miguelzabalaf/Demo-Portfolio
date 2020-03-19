@@ -1,3 +1,4 @@
+@import "/assets/css/aboutMe.css";
 @import "/assets/css/footer.css";
 @import "/assets/css/plataforms.css";
 @import "/assets/css/sectionPortfolio.css";
@@ -8,6 +9,8 @@
 @import "/assets/css/animations.css";
 @import "/assets/css/hero.css";
 @import "/assets/css/header.css";
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -36,8 +39,6 @@ body {
     background-color: var(--backgroundColor);
 }
 
-.main {
-}
 
 .container {
     max-width: 900px;

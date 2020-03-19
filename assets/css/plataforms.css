@@ -1,9 +1,13 @@
 
 .plataforms {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
+    background-color: var(--whiteColor);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
 }
 
 .plataform {

@@ -1,0 +1,50 @@
+.aboutMe {
+    /* border: 1px solid red; */
+    margin-bottom: 50px;
+}
+
+.aboutMeTitle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    color: var(--secondaryColorTransparent);
+    padding-bottom: 50px;
+}
+
+.aboutMeContent {
+    display: block;
+}
+
+.aboutMeContent .section {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.aboutMeContent .section .sectionImg {
+    width: 45%;
+    height: auto;
+    display: flex;
+}
+
+.section .sectionImg img {
+    width: 100%;
+}
+
+.sectionDescription {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+    /* text-align: center; */
+    color: var(--secondaryColor);
+}
+
+
+@media screen and (max-width: 768px) {
+    .sectionDescription {
+        font-size: 14px;
+    }
+}
