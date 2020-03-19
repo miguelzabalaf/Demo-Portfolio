@@ -1,15 +1,17 @@
 .sectionPortfolio {
-    background-color: var(--whiteColor);
-    padding: 1em;
-    /* border: 1px solid var(--grayColor); */
+    /* background-color: var(--whiteColor); */
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: var(--shadow);
+    /* box-shadow: var(--shadow); */
 }
 
 .sectionPortfolioHeader span {
-    color: var(--grayColor2);
-    font-weight: 700;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    color: var(--secondaryColorTransparent);
+    margin-bottom: 20px;
 }
 
 .sectionPortfolioContent {
