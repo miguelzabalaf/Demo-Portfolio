@@ -142,7 +142,7 @@
     font-weight: 700;
     color: var(--secondaryColor);
     position: absolute;
-    top: 80px;
+    top: 60px;
     z-index: 10;
     margin: 15px 0;
     transition: all 0.3s;
@@ -171,7 +171,7 @@
     font-size: 18px;
     position: absolute;
     z-index: 10;
-    top: 250px;
+    top: 230px;
     transition: all 1s;
     box-shadow: var(--shadow);
 }
@@ -192,7 +192,7 @@
     font-size: 16.5px;
     position: absolute;
     z-index: 10;
-    top: 250px;
+    top: 230px;
     left: 210px;
     transition: all 0.3s;
 }
@@ -213,6 +213,7 @@
     z-index: 6;
     top: 50px;
     right: 0;
+    transition: all 0.3s;
 }
 
 
@@ -373,7 +374,7 @@
         overflow: hidden;
     }
     .heroBg2 {
-        visibility: hidden;
+        display: none;
     }
     .heroBg1 {
         top: -5px;
@@ -390,6 +391,7 @@
     }
     .heroTitle2 {
         display: block;
+        top: -20px;
     }
     .heroInstagram {
         display: none;
@@ -401,7 +403,7 @@
     }
     .heroGithub {
         position: absolute;
-        top: 130px;
+        top: 100px;
     }
     .heroBg {
         position: relative;
@@ -413,11 +415,11 @@
     .heroBg2 {
         width: 100px;
         right: 40%;
-        top: 56%;
+        top: 50%;
     }
     .heroBg1 {
         width: 1000px;
-        top: -80px;
+        top: -70px;
         right: -130px;
     }
 }
