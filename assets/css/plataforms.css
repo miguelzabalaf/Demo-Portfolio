@@ -1,0 +1,26 @@
+
+.plataforms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plataform {
+    width: 100px;
+    height: 70px;
+    flex-shrink: 0;
+    object-fit: contain;
+    filter: grayscale(1) contrast(.5);
+}
+
+@media screen and (max-width: 499px) {
+    .plataforms {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .plataform {
+        margin: 5px;
+    }
+
+}
