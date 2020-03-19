@@ -86,11 +86,13 @@
     right: 10px;
     box-shadow: 0 0 -5px 10px rgba(51, 51, 51, 0.15);
     transition: all 1s;
+    z-index: 7;
 }
 
 .heroMe img {
     width: 100%;
     transition: all 1s;
+    z-index: 7;
 }
 
 .heroMe:hover img {
@@ -111,7 +113,7 @@
     /* background-color: var(--backgroundColor); */
     background-color: transparent;
     transition: all 0.5s;
-    z-index: inherit;
+    z-index: 11;
 
 }
 
@@ -181,8 +183,7 @@
 
 .heroInstagram {
     padding: 10px 15px;
-    background-color: var(--secondaryColor);
-    background-color: var(--primaryColor);
+    background-color: none;
     border: 1px solid var(--secondaryColor);
     color: var(--secondaryColor);
     font-weight: 700;
@@ -195,6 +196,25 @@
     left: 210px;
     transition: all 0.3s;
 }
+
+
+.heroBg1 {
+    position: absolute;
+    width: 500px;
+    z-index: 5;
+    top: 50px;
+    right: 0;
+    transition: all 0.3s;
+}
+
+.heroBg2 {
+    position: absolute;
+    width: 500px;
+    z-index: 6;
+    top: 50px;
+    right: 0;
+}
+
 
 .heroInstagram:hover {
     border: 1px solid black;
@@ -253,7 +273,7 @@
         height: 170px;
         bottom: 170px;
         background-color: rgba(255, 255, 255, 0.5);
-        filter: brightness(0.9);
+        filter: brightness(1) opacity(0.3);
     }
     .circle:nth-child(4) {
         width: 120px;
@@ -344,6 +364,24 @@
         left: 180px;
         transition: all 0.3s;
     }
+    .heroBg {
+        position: relative;
+        left: -45px;
+        top: -30px;
+        width: 100vw;
+        height: 100%;
+        overflow: hidden;
+    }
+    .heroBg2 {
+        visibility: hidden;
+    }
+    .heroBg1 {
+        top: -5px;
+        width: 1000px;
+        top: -80px;
+        right: -130px;
+        filter: opacity(0.4);
+    }
 }
 
 @media screen and (max-width: 499px) {
@@ -364,5 +402,22 @@
     .heroGithub {
         position: absolute;
         top: 130px;
+    }
+    .heroBg {
+        position: relative;
+        top: -30px;
+        width: 100vw;
+        height: 100%;
+        overflow: hidden;
+    }
+    .heroBg2 {
+        width: 100px;
+        right: 40%;
+        top: 56%;
+    }
+    .heroBg1 {
+        width: 1000px;
+        top: -80px;
+        right: -130px;
     }
 }
