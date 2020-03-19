@@ -1,9 +1,10 @@
 .sectionInfo {
-    border: 1px solid var(--grayColor);
+    /* border: 1px solid var(--grayColor); */
     border-radius: 10px;
     background-color: var(--whiteColor);
     transition: all 1s;
     margin-bottom: 20px;
+    box-shadow: var(--shadow);
 }
 
 .sectionInfoHeader {
@@ -50,7 +51,7 @@
 .sectionInfoContent {
     padding: 1em;
     display: flex;
-    border-top: 1px solid var(--grayColor);
+    /* border-top: 1px solid var(--grayColor); */
 }
 
 .sectionInfoContentImg {

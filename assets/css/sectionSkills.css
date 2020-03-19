@@ -1,8 +1,7 @@
 .sectionSkills {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .sectionSkills > * {
@@ -12,26 +11,31 @@
     border-radius: 10px;
     flex-shrink: 0;
     transition: all 0.3s;
+    flex-shrink: 0;
+    box-shadow: var(--shadow);
 }
 
 .sectionSkillsWeb {
-    border: 1px solid var(--grayColor);
+    /* border: 1px solid var(--grayColor); */
     background-color: var(--whiteColor);
+    box-shadow: var(--shadow);
 }
 
 .sectionSkillsLenguage {
-    border: 1px solid var(--grayColor);
+    /* border: 1px solid var(--grayColor); */
     background-color: var(--whiteColor);
+    box-shadow: var(--shadow);
 }
 
 .sectionSkillsDesign {
-    border: 1px solid var(--grayColor);
+    /* border: 1px solid var(--grayColor); */
     background-color: var(--whiteColor);
+    box-shadow: var(--shadow);
 }
 
 .sectionSkillsTitle1 {
+    /* border: 1px solid var(--grayColor); */
     background-color: var(--backgroundColor);
-    border: 1px solid var(--grayColor);
     color: var(--blueColor);
     font-weight: 600;
     padding: 0.5em;
@@ -40,8 +44,8 @@
 }
 
 .sectionSkillsTitle2 {
+    /* border: 1px solid var(--grayColor); */
     background-color: var(--backgroundColor);
-    border: 1px solid var(--grayColor);
     color: var(--redColor);
     font-weight: 600;
     padding: 0.5em;
@@ -50,8 +54,8 @@
 }
 
 .sectionSkillsTitle3 {
+    /* border: 1px solid var(--grayColor); */
     background-color: var(--backgroundColor);
-    border: 1px solid var(--grayColor);
     color: var(--greenColor);
     font-weight: 600;
     padding: 0.5em;
@@ -99,21 +103,15 @@
 
 @media screen and (max-width: 910px) {
     .sectionSkills {
-        display: block;
+        overflow: auto;
     }
     .sectionSkillsWeb  {
-        width: auto;
-        height: auto;
-        margin-bottom: 20px;
+        margin-right: 10px;
     }
     .sectionSkillsLenguage {
-        width: auto;
-        height: auto;
-        margin-bottom: 20px;
+        margin-right: 10px;
     } 
     .sectionSkillsDesign {        
-        width: auto;
-        height: auto;
-        margin-bottom: 20px;
+        margin-right: 10px;
     }
 }

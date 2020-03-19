@@ -1,8 +1,10 @@
 .sectionPortfolio {
     background-color: var(--whiteColor);
     padding: 1em;
-    border: 1px solid var(--grayColor);
+    /* border: 1px solid var(--grayColor); */
     border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
 }
 
 .sectionPortfolioHeader span {
@@ -26,6 +28,12 @@
     flex-shrink: 0;
     position: relative;
     transition: all 0.5s;
+    box-shadow: var(--shadow);
+
+}
+
+.portfolioItem:hover {
+    box-shadow: none;
 }
 
 .portfolioItem:hover .portfolioItemImg{
@@ -145,7 +153,7 @@
     .portfolioItem {
         width: 200px;
         height: 112px;
-        box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.2);
+        box-shadow: var(--shadow);
         transition: all 0.5s;
     }
     .portfolioItem:hover {
